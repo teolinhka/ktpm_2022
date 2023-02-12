@@ -1,4 +1,4 @@
-# ***BK LAB Tasking*** - an app for group meeting and tasks asssigning 
+
 
 ## 1. Getting Started
 An app for small and medium organizations (SME), focus on group meeting and tasks asssigning. Main features:
@@ -73,8 +73,12 @@ When opening Application first, `LoginActivity.java` runs. Users must sign in wi
 The file called `Register.java` links to `activity_register.xml` for front-end.It also links to `MainActivity.java ` (Home Client) in order to access when user register successful. The purose of this file is to create account but only admin can create authentic. When admin creates a account sucessful, data of account is stored on firebase.
 Account of this application follows the format:
 - Name: First Name + Last Name
-- Email : name@task.com
-- Password default : ******  
+admin:
+- Email : admin@gmail.com
+- Password default : 123456
+staff:
+- Email : staff@gmail.com
+- Password : 123456
 
 ![image](https://user-images.githubusercontent.com/81752065/195139403-7cdd94e1-db1f-419d-9ee6-da7e61f002d6.png)
 
@@ -152,6 +156,3 @@ The file called `AccountSettingsActivity.java` connected to `activity_profile.xm
 ![image](https://user-images.githubusercontent.com/81752065/195036044-80e7ccc3-bbef-4399-8db1-c62700ffa9a1.png)
 
 </details>
-
-## 5. Authors and credits:
-In research and development process, all credits go to ***Son Tran BK (1st author) and CTARG LAB members***, in EEE, HUST (Hanoi University of Science and Technology), Ha Noi, Viet Nam
